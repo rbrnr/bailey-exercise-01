@@ -1,0 +1,87 @@
+@font-face {
+    font-family: regularFont;
+    src: url(euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Regular.ttf);
+  }
+
+  @font-face {
+    font-family: boldFont;
+    src: url(euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Bold.ttf);
+  }
+
+body {
+    font-family: regularFont;
+    font-size: 20px;
+    letter-spacing: 0px;
+    background: white;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.title {
+    font-size: 72px;
+    letter-spacing: -2px;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.bold {
+    font-family: boldFont;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.right-align {
+    margin-left: auto;
+}
+
+.header-display {
+    display: inline;
+}
+
+.blue {
+    color: #0047FF;
+}
+
+.mute {
+    color: rgba(0,0,0,0.52);
+}
+
+.pill-button {
+    color: white;
+    background-color: #0047FF;
+    border: none;
+    display: inline-block;
+    padding: 25px 45px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.pill-button:hover {
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    display: inline-block;
+    padding: 25px 45px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+}
