@@ -6,6 +6,10 @@
   font-family: boldFont;
   src: url(euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Bold.ttf);
 }
+@font-face {
+  font-family: semiBoldFont;
+  src: url(euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ SemiBold.ttf);
+}
 body {
   font-family: regularFont;
   font-size: 20px;
@@ -20,6 +24,14 @@ body {
   display: flex;
 }
 
+.row-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+}
+
 .title {
   font-size: 72px;
   letter-spacing: -2px;
@@ -29,8 +41,16 @@ body {
   font-size: 50px;
 }
 
+.large-body {
+  font-size: 45px;
+}
+
 .bold {
   font-family: boldFont;
+}
+
+.semiBold {
+  font-family: semiBoldFont;
 }
 
 .text-center {
