@@ -55,6 +55,11 @@ body {
     font-size: 50px;
 }
 
+.sub-header {
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
 .large-body {
     font-size: 45px;
 }
@@ -134,4 +139,152 @@ body {
     font-size: 20px;
     cursor: pointer;
     border-radius: 40px;
+}
+
+.card-grey-button {
+    color: white;
+    background-color: #0047FF;
+    border: none;
+    display: inline-block;
+    padding: 15px 175px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card-grey-button:hover {
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    display: inline-block;
+    padding: 15px 175px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-black-button {
+    color: black;
+    background-color: white;
+    border: none;
+    display: inline-block;
+    padding: 15px 175px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card-black-button:hover {
+    color: black;
+    background-color: #BCFE2F;
+    border: none;
+    display: inline-block;
+    padding: 15px 175px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-grey {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid lightgray;
+    width: 515px;
+    height: 700px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.card-black {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 515px;
+    height: 700px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.img-row {
+   margin-bottom: 10px;
+}
+
+.img-row {
+    margin-bottom: 10px;
+ }
+
+.portrait-display {
+    padding-left: 25px;
+}
+
+.product-display {
+    padding-left: 15px;
+}
+
+.center-div {
+    margin: auto;
+}
+
+.box-container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.grey-pill {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    display: inline-block;
+    padding: 35px 50px;
+    margin: 4px 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.inactive-grey {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.inactive-grey:hover {
+    color: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.box-outline {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
