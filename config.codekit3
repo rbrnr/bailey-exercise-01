@@ -330,6 +330,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/emi-paper-airplane-32.png" : {
+      "ft" : 32768,
+      "iS" : 607,
+      "oA" : 0,
+      "oAP" : "\/images\/emi-paper-airplane-32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/funny_Bunny.png" : {
       "ft" : 32768,
       "iS" : 2687,
