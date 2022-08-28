@@ -117,6 +117,11 @@ body {
   text-align: center;
 }
 
+.black-link {
+  color: black;
+  text-decoration: none;
+}
+
 .right-align {
   margin-left: auto;
 }
@@ -439,4 +444,38 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.shadowbox {
+  box-shadow: -2px 14px 23px 15px rgba(173, 173, 173, 0.43);
+  transition: 0.3s;
+  border-radius: 17px;
+}
+
+.shadow:hover {
+  box-shadow: -2px 14px 23px 15px rgba(173, 173, 173, 0.43);
+  transition: 0.3s;
+  border-radius: 17px;
+}
+
+.circle-shadow:hover {
+  box-shadow: 0px 15px 46px 10px rgba(173, 173, 173, 0.43);
+  border-radius: 150px;
+  width: 265px;
+  margin: 0px;
+}
+
+.circle-shadow {
+  border-radius: 150px;
+  margin: 5px;
+}
+
+.square-shadow:hover {
+  box-shadow: 0px 15px 46px 10px rgba(173, 173, 173, 0.43);
+  width: 269px;
+  margin: 0px;
+}
+
+.square-shadow {
+  margin: 7px;
 }

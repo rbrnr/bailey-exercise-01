@@ -1,9 +1,9 @@
 <!doctype html>
 <head>
   <title>Exercise 1</title>
-  <script src="https://kit.fontawesome.com/3e5629edd5.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="./scripts.js"></script>
+  <script src="https://kit.fontawesome.com/3e5629edd5.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -119,37 +119,66 @@
 
     <div style="margin-top: 25px;" class="container-center">
       <div style="margin-top:40px; font-size: 24px;" class="grey-pill">
-        <a href="#" style="margin-right: 25px;" class="inactive-grey">Circle</a>
-        <a href="#" style="margin-left: 25px;" class="inactive-grey">Square</a>
+        <a style="margin-right: 25px;" id="circle-button" class="black-link">Circle</a>
+        <a style="margin-left: 25px;" id="square-button" class="inactive-grey">Square</a>
       </div>
     </div>
 
-    <div class="container-center-row" style="margin-top: 100px;">
+    <div class="container-center-row" style="margin-top: 100px;" id="circle-icons">
       <div class="img-row">
-        <img src="images/s-5-img-1.png">
-        <img src="images/s-5-img-2.png">
-        <img src="images/s-5-img-3.png">
-        <img src="images/s-5-img-4.png">
+        <img class="circle-shadow" src="images/s-5-img-1.png">
+        <img class="circle-shadow" src="images/s-5-img-2.png">
+        <img class="circle-shadow" src="images/s-5-img-3.png">
+        <img class="circle-shadow" src="images/s-5-img-4.png">
       </div>
       <br>
       <div class="img-row">
-        <img src="images/s-5-img-5.png">
-        <img src="images/s-5-img-6.png">
-        <img src="images/s-5-img-7.png">
-        <img src="images/s-5-img-8.png">
+        <img class="circle-shadow" src="images/s-5-img-5.png">
+        <img class="circle-shadow" src="images/s-5-img-6.png">
+        <img class="circle-shadow" src="images/s-5-img-7.png">
+        <img class="circle-shadow" src="images/s-5-img-8.png">
       </div>
       <br>
       <div class="img-row">
-        <img src="images/s-5-img-9.png">
-        <img src="images/s-5-img-10.png">
-        <img src="images/s-5-img-11.png">
-        <img src="images/s-5-img-12.png">
+        <img class="circle-shadow" src="images/s-5-img-9.png">
+        <img class="circle-shadow" src="images/s-5-img-10.png">
+        <img class="circle-shadow" src="images/s-5-img-11.png">
+        <img class="circle-shadow" src="images/s-5-img-12.png">
       </div>
       <br>
       <div class="portrait-row">
-        <img src="images/s-5-img-13.png">
-        <img src="images/s-5-img-14.png">
-        <img src="images/s-5-img-15.png">
+        <img class="circle-shadow" src="images/s-5-img-13.png">
+        <img class="circle-shadow" src="images/s-5-img-14.png">
+        <img class="circle-shadow" src="images/s-5-img-15.png">
+      </div>
+    </div>
+
+    <div class="container-center-row" style="margin-top: 100px; display: none;" id="square-icons">
+      <div class="img-row">
+        <img class="square-shadow" src="images/s-5-img-16.png">
+        <img class="square-shadow" src="images/s-5-img-17.png">
+        <img class="square-shadow" src="images/s-5-img-18.png">
+        <img class="square-shadow" src="images/s-5-img-19.png">
+      </div>
+      <br>
+      <div class="img-row">
+        <img class="square-shadow" src="images/s-5-img-20.png">
+        <img class="square-shadow" src="images/s-5-img-21.png">
+        <img class="square-shadow" src="images/s-5-img-22.png">
+        <img class="square-shadow" src="images/s-5-img-23.png">
+      </div>
+      <br>
+      <div class="img-row">
+        <img class="square-shadow" src="images/s-5-img-24.png">
+        <img class="square-shadow" src="images/s-5-img-25.png">
+        <img class="square-shadow" src="images/s-5-img-26.png">
+        <img class="square-shadow" src="images/s-5-img-27.png">
+      </div>
+      <br>
+      <div class="portrait-row">
+        <img class="square-shadow" src="images/s-5-img-28.png">
+        <img class="square-shadow" src="images/s-5-img-29.png">
+        <img class="square-shadow" src="images/s-5-img-30.png">
       </div>
     </div>
 
@@ -210,7 +239,7 @@
     <div class="container-center-row">
       <div class="img-row">
         <div class="product-info">
-          <img src="images/product-1.png" width="350px">
+          <img class="shadow" src="images/product-1.png" width="350px">
           <span class="product-details">
             <div class="bubble-3D">3D</div>
             <div>Isometrica 2</div>
@@ -218,7 +247,7 @@
           </span>
         </div>
         <div class="product-info">
-          <img src="images/product-2.png" width="350px">
+          <img class="shadow" src="images/product-2.png" width="350px">
           <span class="product-details">
             <div class="bubble-3D">3D</div>
             <div>Superscene 5</div>
@@ -226,7 +255,7 @@
           </span>
         </div>
         <div class="product-info">
-          <img src="images/product-3.png" width="350px">
+          <img class="shadow" src="images/product-3.png" width="350px">
           <span class="product-details">
             <div class="bubble-vector">Vector</div>
             <div>Do it</div>
@@ -237,7 +266,7 @@
       
       <div class="img-row">
         <div class="product-info">
-          <img src="images/product-4.png" width="350px">
+          <img class="shadow" src="images/product-4.png" width="350px">
           <span class="product-details">
             <div class="bubble-vector">Vector</div>
             <div>Manufactory</div>
@@ -245,7 +274,7 @@
           </span>
         </div>
         <div class="product-info">
-          <img src="images/product-5.png" width="350px">
+          <img class="shadow" src="images/product-5.png" width="350px">
           <span class="product-details">
             <div class="bubble-vector">Vector</div>
             <div>Oh My Startup</div>
@@ -253,7 +282,7 @@
           </span>
         </div>
         <div class="product-info">
-          <img src="images/product-6.png" width="350px">
+          <img class="shadow" src="images/product-6.png" width="350px">
           <span class="product-details">
             <div class="bubble-vector">Vector</div>
             <div>Nuts</div>
@@ -264,7 +293,7 @@
 
       <div class="img-row">
         <div class="product-info">
-          <img src="images/product-7.png" width="350px">
+          <img class="shadow" src="images/product-7.png" width="350px">
           <span class="product-details">
             <div class="bubble-3D">3D</div>
             <div>Humanity</div>
@@ -272,7 +301,7 @@
           </span>
         </div>
         <div class="product-info">
-          <img src="images/product-8.png" width="350px">
+          <img class="shadow" src="images/product-8.png" width="350px">
           <span class="product-details">
             <div class="bubble-3D">3D</div>
             <div>Boom</div>
@@ -280,7 +309,7 @@
           </span>
         </div>
         <div class="product-info">
-          <img src="images/product-9.png" width="350px">
+          <img class="shadow" src="images/product-9.png" width="350px">
           <span class="product-details">
             <div class="bubble-vector">Vector</div>
             <div class="left-flex">Control</div>
