@@ -144,6 +144,7 @@ body {
 .blue-link {
   color: #0047FF;
   cursor: pointer;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -452,10 +453,15 @@ body {
   border-radius: 17px;
 }
 
-.shadow:hover {
-  box-shadow: -2px 14px 23px 15px rgba(173, 173, 173, 0.43);
-  transition: 0.3s;
-  border-radius: 17px;
+.visible-transition {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hidden-transition {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 
 .circle-shadow:hover {
@@ -478,4 +484,9 @@ body {
 
 .square-shadow {
   margin: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
