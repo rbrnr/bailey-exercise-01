@@ -70,7 +70,7 @@
         //   circleIcons.classList.add('hidden-transition');
           // circleIcons.style.display = "none";
         }
-    }
+    
 
     // TODO work on mouse over of details, to show shadow box on the image as well.
     // OLD SOLUTION THAT I COULDN'T FIGURE OUT
@@ -176,7 +176,8 @@
       }
 
     
-  }
-    
+    }
 
-})();
+}
+
+)();
